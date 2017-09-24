@@ -47,8 +47,9 @@ public class MyFriends extends AppCompatActivity implements HomeView, Connectivi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_friends);
         initViews();
-        checkConnection();
         homePresenter.setView(this);
+        checkConnection();
+
 
     }
 
